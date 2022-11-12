@@ -17,8 +17,8 @@ PortForwardGo 是一款高性能端口转发后端,内置防火墙, 同时支持
 
 ## 隧道协议
 
-- Secure (AES-128-GCM)
-- SecureX (Chacha20-IETF-Poly1305)
+- Secure (AES)
+- SecureX (轻量加密 适合无AES硬解机器使用)
 - TLS/QUIC (自动协商加密算法)
 
 > 所有隧道均为 TCP+UDP 加密转发
